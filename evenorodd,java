@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+class EvenOdd {
+    int num;
+
+    EvenOdd(int n) {
+        num = n;
+    }
+
+    void check() {
+        if ((num & 1) == 0)
+            System.out.println("Even");
+        else
+            System.out.println("Odd");
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter number: ");
+        int n = sc.nextInt();
+
+        EvenOdd obj = new EvenOdd(n);
+        obj.check();
+    }
+}
