@@ -50,7 +50,7 @@ class Student extends Hostel implements Department {
     }
 }
 
-public class Main {
+public class interface1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
